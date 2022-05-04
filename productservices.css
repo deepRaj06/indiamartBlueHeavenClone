@@ -1,0 +1,22 @@
+#productservicesdiv h2{
+    margin-left:150px;
+}
+
+
+#lipstick{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#productservicetitle{
+    height:20px;
+
+}
+
+#foundation{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
