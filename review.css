@@ -1,7 +1,9 @@
 #inside{
     display:flex;
-
+    width: 90%;
+    justify-content:flex-start;
     margin:auto;
+    padding: 20px 0px;
 }
 #inside >div{
     /* border:1px solid red; */
