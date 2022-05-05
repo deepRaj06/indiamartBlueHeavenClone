@@ -264,3 +264,39 @@ window.addEventListener('load', function () {
         });
     });    
 
+
+
+
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        centeredSlides: false,
+       
+        paginationClickable: true,
+        
+
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+
+
+
+     
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
+
+
+    
+    // import section
+
+
+   
+import {home_homeservicecontactabout ,lastfootersectionjs } from "./component/allscript.js";
+document.querySelector('#secondnavabrjs').innerHTML = home_homeservicecontactabout();
+document.querySelector('#lastfootersection').innerHTML = lastfootersectionjs();
+

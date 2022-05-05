@@ -110,6 +110,8 @@ h5 {
 
 .hometopcsss {
     margin-top: -40px !important;
+    width: 97%;
+    margin: auto;
 
 }
 
@@ -601,7 +603,7 @@ h6 {
 .blue {
     background-color: #2D3192;
     color: #fff;
-    padding: 15px 20px;
+    padding: 5px 10px;
     font-size: 20px;
 }
 
