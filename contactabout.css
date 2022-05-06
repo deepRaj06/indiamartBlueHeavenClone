@@ -101,6 +101,7 @@ h5 {
     margin-bottom: -50px;
     color: #2E319E;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .footericon_row p {
@@ -470,6 +471,17 @@ h5 {
 .phone_no_css p {
     margin: 5px 10px;
     text-align: center;
+}
+
+/*twoemialdiv  */
+
+.twoemialdiv{
+    margin-bottom: 10px;
+
+}
+
+#mobile_nav{
+    background-color: #eaeaf4;
 }
 
 .email_msg {

@@ -550,7 +550,11 @@ font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
     font-size: 14px;
+    margin-top: 1.2rem;
 
+}
+.descswiper p{
+    margin-top: 0.7rem;
 }
 
 .descswiper p>:hover {
