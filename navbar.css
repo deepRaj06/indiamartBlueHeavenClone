@@ -10,7 +10,7 @@
     user-select: none;
   }
   .akashnav{
-    height: 70px;
+    height: 66px;
     background:#2e3192;
   }
   .akashnav ul{
@@ -23,26 +23,26 @@
   .akashnav ul li .akashactive{
     color: white;
     display: block;
-    padding: 0 12px;
-    line-height: 70px;
-    font-size: 20px;
-    background:#2e3192;
-    transition: .5s;
+    margin-top: 25px;
+     line-height: 20px;  
+
+    transition: 2s;
   }
-  .akashnav ul li a:hover,
   .akashnav ul li a.akashactive{
     color: #ffffff;
-    font-size: medium;
+     padding: 16px 0 0 0 ; 
+    font-size:18px;
   }
   .akashnav ul ul{
     position: absolute;
     top: 85px;
-    border-top: 3px solid #ffffff;
+    /* border-top: 3px solid #ff0000; */
     opacity: 0;
     visibility: hidden;
   }
   .akashnav ul li:hover > ul{
     top: 70px;
+    
     opacity: 1;
     visibility: visible;
     transition: .3s linear;
@@ -67,12 +67,7 @@
   .akashnav ul ul li a i{
     margin-left: 45px;
   }
-  section{
-    background: url(bg.jpeg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-  }
+ 
   .hd_logo{
        font-weight: 400;
     line-height: 1;
@@ -80,58 +75,38 @@
     font-family: arial;
     outline: none;
     text-decoration: none;
-    padding-left: 10px;
+   
     float: left;
     display: block;
-    margin: 8px 0 0 10px;  
+    margin: 15px 0 0 10px;  
      background-image: url(https://utils.imimg.com/globalhf/hrd-sp-v30.png);
      background-repeat: no-repeat;
     height: 40px;
     background-position: 0 1px;
     text-indent: -99999px;
-    width: 170px;
+    width: 120px;
     background-size: 235%;  
   
   }
-  .hd_srch{
-  font-weight: 400;
-  line-height: 1;
-  color: #333;
-  font-size: 12px;
-  font-family: arial;
-  margin: 0;
-  padding: 0;
-  display: block;
-  float: left;
-  background-color: #fff;
-  border-radius: 3px;
-  height: 35px;
-  width: 396px;
-  margin-right: 10px;
-  }
-  .cvSbm{
-color: black;
-  }
+ 
 
 #search-div{
   display: inline-block;
   margin-top: 12px;
-  margin-left: -4px;
-  width: 610px;
-  height:50px;
-  
+  margin-left: -3.88px;
+  width: 470px;
+  height:41px;  
 }
 #search-input{
-  width: 480px;
-  height:39.5px;
+  width: 78%;
+  height:37.5px;
   font-size: large;
+  padding-left: 5px;
 }
-#search-input::placeholder{
-padding-left: 5px;
-}
+
 #button{
-  width: 110px;
-  height:42.5px ;
+  width: 20%;
+  height:40.5px ;
  margin-top: 1px;
   margin-left: -4.5px;
   border-radius: 0 3px 3px 0;
@@ -145,12 +120,13 @@ padding-left: 5px;
 margin-right: 10px;
 }
 #button-B{
-  width: 140px;
-  height:43px ;
+  width: 120px;
+  height:39px ;
   background-color: white;
   color: blue;
-  font-size: large;
-  margin-left: 16px;
+  font-size:15px;
+  margin-left: 9px;
+ 
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -176,7 +152,7 @@ color: white;
 
 #help{
   border: 1px solid black;
-  padding: 10px;
+  padding: 6px;
   border: none;
   box-shadow: rgba(167, 167, 184, 0.338) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -185,47 +161,55 @@ color: white;
 
 }
 .akashspan{
-  font-size: 1.5em;
-  font-size: larger;
-  font-weight: bolder;
+  font-size: 1em;
+  font-weight: bold;
  
 }
 .akashgap{
-  padding-top: 25px;
+  padding-top: 14px;
+  font-size: 14px;
 }
 .akashgap:hover{
   font-style: italic;
 }
 
 #covid-supplies{
-  border: 1px solid black;
+ 
   display: flex;
-  padding: 10px;
-  gap: 120px;
+  padding: 7px;
+  gap: 80px;
   border: none;
   box-shadow: rgba(167, 167, 184, 0.338) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+#covid-1{
+
+  width: 50%;
+}
+#covid-2{
+  
+  width: 50%;
+}
 .akashg{
   padding-top: 15px;
+  font-size: 13px;
 }
 .akashspan-2{
-  font-size: 1.5em;
-  font-size: larger;
-  font-weight: bolder;
+  font-size: 1em;
+  font-weight: bold;
 }
 .akashg-l{
   color: blue;
-  padding-top: 15px;
+  padding-top: 12px;
   text-decoration: underline;
   font-weight: bold;
 }
 #button-AB{
-  width: 140px;
+  width: 100px;
   height:40.5px ;
   background-color: white;
   color: rgb(0, 0, 0);
-  font-size: large;
-  margin-left: 18px;
+  font-size:16px;
+  margin-left: 8px;
  
   border-radius: 4px 0 0 4px;
   border: none;
