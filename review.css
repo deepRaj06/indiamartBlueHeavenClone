@@ -39,6 +39,8 @@ display: flex;
 #hu{
 display:inline-block;
 color:#5b5048;
+/* Changes by Deepak Rajput */
+font-size: 3.5rem;  
 }
 .down{
 margin-top:34px;

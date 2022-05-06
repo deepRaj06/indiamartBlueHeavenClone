@@ -1,22 +1,23 @@
 
+        
         .swiper-slide {
             text-align: center;
             font-size: 18px;
             background: #fff;
             width: 28%;
-            border: 0.8px solid rgb(204, 200, 200);
-
-        
+            /* border: 0.8px solid rgb(204, 200, 200); */        
             display: grid;
 
         
             justify-content: center;
          
             align-items: center;
+            
         }
 
         .swiper-slide img {
             /* display: block; */
+        
             width: 100%;
 
             height: fit-content;
@@ -27,12 +28,11 @@
         }
 
         .swiper {
-            border: 1px solid rgb(207, 204, 204);
+            /* border: 1px solid red !important; */
             width: 90%;
             height: 300px;
             margin: 20px auto;
             font-family: Arial, Helvetica, sans-serif;
-
         }
 
         .descswiper {
@@ -74,6 +74,7 @@ font-size: 14px;
             font-weight: bold;
             border-radius: 5px;
             font-size: 14px;
+            margin-top: 0.2rem;
 
         }
 
