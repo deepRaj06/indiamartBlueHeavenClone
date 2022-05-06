@@ -5,7 +5,7 @@ body{
 }
 
 #home_aboutUs_sec{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1300px;
     height: auto;
     box-sizing: border-box;
@@ -23,6 +23,11 @@ body{
     text-decoration: none;
     color: black;
     position: relative;
+    font-weight: 600;
+}
+.aboutUs_link:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /* common */
@@ -218,7 +223,7 @@ body{
 
 #prod_sec{
     /* margin-top: 40px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1300px;
     height: auto;
     box-sizing: border-box;
@@ -234,6 +239,11 @@ body{
     text-decoration: none;
     color: black;
     position: relative;
+    font-weight: 700;
+}
+.prod_head_style_link:hover{
+    text-decoration: none;
+    color: black;
 }
 
 /* prod_container */
@@ -333,15 +343,16 @@ body{
 /* relProdsMain */
 #relProdsMain{
     width: 1300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 2%;
     box-sizing: border-box;
     margin: auto;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 #relCateg_header{
     margin-top: 0px;
+    font-weight: 600;
 }
 
 #relProds{
@@ -360,9 +371,9 @@ body{
 
 #relCateg{
     width: 1300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
-    margin-top: 4rem;
+    /* margin-top: 2rem; */
     padding: 2%;
     box-sizing: border-box;
 }
