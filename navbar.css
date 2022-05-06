@@ -26,12 +26,12 @@
     margin-top: 25px;
      line-height: 20px;  
 
-    transition: .5s;
+    transition: 2s;
   }
   .akashnav ul li a.akashactive{
     color: #ffffff;
-    padding: 15px 10px 10px 10px;
-    font-size:13px;
+     padding: 16px 0 0 0 ; 
+    font-size:18px;
   }
   .akashnav ul ul{
     position: absolute;
