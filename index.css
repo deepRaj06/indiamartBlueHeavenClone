@@ -2,6 +2,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     font-size: 16px;
+    background-color: #e9eaec;
+}
+
+#mainPage{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 1300px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin: auto;
+    background-color: white;
 }
 
 #home_aboutUs_sec{
@@ -294,12 +307,18 @@ body{
     font-size: 20px;
 }
 
+.prod_subcont_view{
+    /* height: 64px; */
+    /* margin-bottom: 1rem; */
+    margin-top: 4rem;
+
+}
+
 .prod_subcont_text_1_link,
 .prod_subcont_text_2_link,
 .prod_subcont_text_3_link{
     text-decoration: none;
     color: #777;
-
 }
 
 .prod_subcont_text_1_link:hover,
@@ -307,6 +326,10 @@ body{
 .prod_subcont_text_3_link:hover{
     color:#111
 
+}
+
+.prod_subcont_text_height{
+    height: 62px;
 }
 
 .prod_subcont_view{
@@ -322,7 +345,7 @@ body{
 
 .prod_subcont_view_text_link{
     margin-left: 0.2rem;
-    font-size:22px
+    font-size: 16px;
 }
 
 .prod_subcont_view_text:hover{
@@ -533,5 +556,43 @@ font-size: 14px;
     color: green;
 }
 /* bhavesh careousla css ends */
+
+/* Deepak scrollToTop starts */
+
+#btnScrollToTop{
+    display: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #058b80;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#btnScrollToTop:active {
+    background: #074944;
+}
+
+.btnScrollToTop_link{
+    font-weight: bolder;
+    width: 20px;
+    height: 20px;
+}
+
+/* Deepak scrollToTop ends */
+
+
+
+
+
+
+
 
 
