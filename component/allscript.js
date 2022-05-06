@@ -82,28 +82,28 @@ const home_homeservicecontactabout = () =>{
 
                     <!--========-->
                     <li class="nav-item dropdown megamenu-li dmenu">
-                        <a class="nav-link " href="product.html" id="dropdown01"  aria-haspopup="true"
+                        <a class="nav-link " href="data.html" id="dropdown01"  aria-haspopup="true"
                             aria-expanded="false">Product & Services</a>
                         <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Makeup</h6>
-                                    <a class="dropdown-item" href="#"> Foundation</a>
-                                    <a class="dropdown-item" href="#"> Compact </a>
-                                    <a class="dropdown-item" href="#"> Pan Cake Foundation</a>
-                                    <a class="dropdown-item" href="#"> Pan Stick Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Compact </a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Cake Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Stick Foundation</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lips Products</h6>
-                                    <a class="dropdown-item" href="#"> Lip Gloss </a>
-                                    <a class="dropdown-item" href="#">Lip Stick </a>
-                                    <a class="dropdown-item" href="#"> Lip Liner </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Gloss </a>
+                                    <a class="dropdown-item" href="./lipproduct.html">Lip Stick </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Liner </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Scrubs</h6>
-                                    <a class="dropdown-item" href="#"> Faireness Scrub</a>
-                                    <a class="dropdown-item" href="#"> Mix Fruit Scrub</a>
-                                    <a class="dropdown-item" href="#"> Facial Scrub - Walnut & Apricot Ga</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Faireness Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Mix Fruit Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Facial Scrub - Walnut & Apricot Ga</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mb-4">
                                     <h6>LipCare</h6>
@@ -114,17 +114,17 @@ const home_homeservicecontactabout = () =>{
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lipstcik</h6>
-                                    <a class="dropdown-item" href="#"> Bake Brick Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Ceries Pink Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Coral Red Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Desret Rose Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Bake Brick Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Ceries Pink Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Coral Red Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Desret Rose Lipstick</a>
                                     <a class="dropdown-item " href="#" style="color: blue;"> .more</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Bleach Cream</h6>
-                                    <a class="dropdown-item" href="#"> Fruit Bleach</a>
-                                    <a class="dropdown-item" href="#"> Gold Bleach</a>
-                                    <a class="dropdown-item" href="#"> Personal Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Fruit Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Gold Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Personal Bleach</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Eyes Products</h6>
@@ -277,8 +277,7 @@ const product_homeservicecontactabout = () =>{
 <div class="hometopcsss">
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <!-- <a class="text-dark" href="index.html" >Home</a> -->
-            <a class="nav-link text-dark " href="#">Home</a>
+            <a class="nav-link text-dark " href="index.html">Home</a>
             <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#mobile_nav"
                 aria-controls="mobile_nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -291,28 +290,28 @@ const product_homeservicecontactabout = () =>{
 
                     <!--========-->
                     <li class="nav-item dropdown megamenu-li dmenu">
-                        <a class="nav-link text-white " href="" id="dropdown01"  aria-haspopup="true"
+                        <a class="nav-link text-white " href="data.html" id="dropdown01"  aria-haspopup="true"
                             aria-expanded="false" style="background-color: #2D3192;">Product & Services</a>
                         <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Makeup</h6>
-                                    <a class="dropdown-item" href="#"> Foundation</a>
-                                    <a class="dropdown-item" href="#"> Compact </a>
-                                    <a class="dropdown-item" href="#"> Pan Cake Foundation</a>
-                                    <a class="dropdown-item" href="#"> Pan Stick Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Compact </a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Cake Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Stick Foundation</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lips Products</h6>
-                                    <a class="dropdown-item" href="#"> Lip Gloss </a>
-                                    <a class="dropdown-item" href="#">Lip Stick </a>
-                                    <a class="dropdown-item" href="#"> Lip Liner </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Gloss </a>
+                                    <a class="dropdown-item" href="./lipproduct.html">Lip Stick </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Liner </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Scrubs</h6>
-                                    <a class="dropdown-item" href="#"> Faireness Scrub</a>
-                                    <a class="dropdown-item" href="#"> Mix Fruit Scrub</a>
-                                    <a class="dropdown-item" href="#"> Facial Scrub - Walnut & Apricot Ga</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Faireness Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Mix Fruit Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Facial Scrub - Walnut & Apricot Ga</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mb-4">
                                     <h6>LipCare</h6>
@@ -323,27 +322,23 @@ const product_homeservicecontactabout = () =>{
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lipstcik</h6>
-                                    <a class="dropdown-item" href="#"> Bake Brick Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Ceries Pink Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Coral Red Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Desret Rose Lipstick</a>
-                                    <a class="dropdown-item " href="#" style="color: blue;"> .more</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Bake Brick Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Ceries Pink Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Coral Red Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Desret Rose Lipstick</a>
+                                    <a class="dropdown-item " href="./lipstick.html" style="color: blue;"> .more</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Bleach Cream</h6>
-                                    <a class="dropdown-item" href="#"> Fruit Bleach</a>
-                                    <a class="dropdown-item" href="#"> Gold Bleach</a>
-                                    <a class="dropdown-item" href="#"> Personal Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Fruit Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Gold Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Personal Bleach</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Eyes Products</h6>
                                     <a class="dropdown-item" href="#"> Mascara </a>
                                     <a class="dropdown-item" href="#"> Eye Sahdow</a>
                                     <a class="dropdown-item" href="#"> experte"> Eye Liner</a>
-                                </div>
-                                <div class="col-sm-6 col-lg-3 mb-4">
-                                    <h6>Digital Marketing</h6>
-                                    <a class="dropdown-item" href="#"> Conversion Rate Optimization</a>
                                 </div>
                             </div>
                         </div>
@@ -360,7 +355,7 @@ const product_homeservicecontactabout = () =>{
                             <a class="dropdown-item" href="#">Download Browchure</a>
                         </div>
                     </li>
-                    <li class="nav-item text-dark" ><a class="nav-link text-white"
+                    <li class="nav-item text-dark" ><a class="nav-link"
                             href="./contact.html">Contact us</a></li>
 
                 </ul>
@@ -502,28 +497,28 @@ const about_homeservicecontactabout = () =>{
 
                     <!--========-->
                     <li class="nav-item dropdown megamenu-li dmenu">
-                        <a class="nav-link " href="" id="dropdown01"  aria-haspopup="true"
+                        <a class="nav-link " href="data.html" id="dropdown01"  aria-haspopup="true"
                             aria-expanded="false">Product & Services</a>
                         <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Makeup</h6>
-                                    <a class="dropdown-item" href="#"> Foundation</a>
-                                    <a class="dropdown-item" href="#"> Compact </a>
-                                    <a class="dropdown-item" href="#"> Pan Cake Foundation</a>
-                                    <a class="dropdown-item" href="#"> Pan Stick Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Compact </a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Cake Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Stick Foundation</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lips Products</h6>
-                                    <a class="dropdown-item" href="#"> Lip Gloss </a>
-                                    <a class="dropdown-item" href="#">Lip Stick </a>
-                                    <a class="dropdown-item" href="#"> Lip Liner </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Gloss </a>
+                                    <a class="dropdown-item" href="./lipproduct.html">Lip Stick </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Liner </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Scrubs</h6>
-                                    <a class="dropdown-item" href="#"> Faireness Scrub</a>
-                                    <a class="dropdown-item" href="#"> Mix Fruit Scrub</a>
-                                    <a class="dropdown-item" href="#"> Facial Scrub - Walnut & Apricot Ga</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Faireness Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Mix Fruit Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Facial Scrub - Walnut & Apricot Ga</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mb-4">
                                     <h6>LipCare</h6>
@@ -534,17 +529,17 @@ const about_homeservicecontactabout = () =>{
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lipstcik</h6>
-                                    <a class="dropdown-item" href="#"> Bake Brick Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Ceries Pink Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Coral Red Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Desret Rose Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Bake Brick Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Ceries Pink Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Coral Red Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Desret Rose Lipstick</a>
                                     <a class="dropdown-item " href="#" style="color: blue;"> .more</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Bleach Cream</h6>
-                                    <a class="dropdown-item" href="#"> Fruit Bleach</a>
-                                    <a class="dropdown-item" href="#"> Gold Bleach</a>
-                                    <a class="dropdown-item" href="#"> Personal Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Fruit Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Gold Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Personal Bleach</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Eyes Products</h6>
@@ -712,28 +707,28 @@ const contact_homeservicecontactabout = () =>{
 
                     <!--========-->
                     <li class="nav-item dropdown megamenu-li dmenu">
-                        <a class="nav-link " href="" id="dropdown01"  aria-haspopup="true"
+                        <a class="nav-link " href="data.html" id="dropdown01"  aria-haspopup="true"
                             aria-expanded="false">Product & Services</a>
                         <div class="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Makeup</h6>
-                                    <a class="dropdown-item" href="#"> Foundation</a>
-                                    <a class="dropdown-item" href="#"> Compact </a>
-                                    <a class="dropdown-item" href="#"> Pan Cake Foundation</a>
-                                    <a class="dropdown-item" href="#"> Pan Stick Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Compact </a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Cake Foundation</a>
+                                    <a class="dropdown-item" href="./makeup.html"> Pan Stick Foundation</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lips Products</h6>
-                                    <a class="dropdown-item" href="#"> Lip Gloss </a>
-                                    <a class="dropdown-item" href="#">Lip Stick </a>
-                                    <a class="dropdown-item" href="#"> Lip Liner </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Gloss </a>
+                                    <a class="dropdown-item" href="./lipproduct.html">Lip Stick </a>
+                                    <a class="dropdown-item" href="./lipproduct.html"> Lip Liner </a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Scrubs</h6>
-                                    <a class="dropdown-item" href="#"> Faireness Scrub</a>
-                                    <a class="dropdown-item" href="#"> Mix Fruit Scrub</a>
-                                    <a class="dropdown-item" href="#"> Facial Scrub - Walnut & Apricot Ga</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Faireness Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Mix Fruit Scrub</a>
+                                    <a class="dropdown-item" href="./scrubs.html"> Facial Scrub - Walnut & Apricot Ga</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mb-4">
                                     <h6>LipCare</h6>
@@ -744,17 +739,17 @@ const contact_homeservicecontactabout = () =>{
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Lipstcik</h6>
-                                    <a class="dropdown-item" href="#"> Bake Brick Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Ceries Pink Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Coral Red Lipstick</a>
-                                    <a class="dropdown-item" href="#"> Desret Rose Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Bake Brick Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Ceries Pink Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Coral Red Lipstick</a>
+                                    <a class="dropdown-item" href="./lipstick.html"> Desret Rose Lipstick</a>
                                     <a class="dropdown-item " href="#" style="color: blue;"> .more</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Bleach Cream</h6>
-                                    <a class="dropdown-item" href="#"> Fruit Bleach</a>
-                                    <a class="dropdown-item" href="#"> Gold Bleach</a>
-                                    <a class="dropdown-item" href="#"> Personal Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Fruit Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Gold Bleach</a>
+                                    <a class="dropdown-item" href="./bleach.html"> Personal Bleach</a>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 border-right mb-4">
                                     <h6>Eyes Products</h6>
