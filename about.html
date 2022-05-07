@@ -15,10 +15,13 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 
     <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
         type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -28,13 +31,19 @@
 
     <link rel="stylesheet" href="./contactabout.css">
 
-
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./pop_up.css">
 
     <title>Indiamart | About_page</title>
 
 </head>
 
 <body>
+    <div class="akash_navdiv_blue">
+   
+
+
+    </div>
 
     <!-- second navbar start  -->
     <div id="homeserviesaboutabout">
@@ -477,9 +486,11 @@
 
 
     
-    import {about_homeservicecontactabout ,lastfootersectionjs} from "./component/allscript.js";
+    import {about_homeservicecontactabout ,lastfootersectionjs,main_blue_divbar} from "./component/allscript.js";
     document.querySelector('#homeserviesaboutabout').innerHTML = about_homeservicecontactabout();
     document.querySelector('#lastfootersection').innerHTML = lastfootersectionjs();
+    document.querySelector('.akash_navdiv_blue').innerHTML = main_blue_divbar();
+
 
 
 

@@ -910,6 +910,290 @@ const lastfootersectionjs = () =>{
   `
 }
 
+const main_blue_divbar = () =>{
+    return `
+    <nav id="akash-navi" class="akash_navas">
+    <a href="index.html" class="hd_logo Hd_db hdlft Hd_fl"></a>
+    <li>
+        <button id="button-AB">
+           All India<i class="fas fa-caret-down w"></i>
+       </button>
 
+       <div id="search-div">
+          <input type="text" id="search-input" placeholder="Enter product / service to search">
+          <button id="button"><i class="fa-solid fa-magnifying-glass o"></i>Search</button>
+       </div>
+       <button id="button-B">
+          <h4> Get Best Price</h4>
+       </button>
+       <ul>
+          <li><a class="akashactive" href="#"><i class="fa-solid fa-cart-arrow-down img"></i>IM Shopping </a></li>
+          <li>
+             <a href="#" class="akashactive"> <i class="fa-solid fa-shield-halved img"></i>Covid Supplies
+                <i class="fas fa-caret-down"></i>
+             </a>
+             <ul>
+                <div id="covid-supplies" >
+                   <div id="covid-1" >
+                      <span class="akashspan">Oxygen Supplies</span>
+                      <p class="akashg ">Oxygen Cylinder</p>
+                      <p class="akashg">Portable Oxygen Can</p>
+                      <p class="akashg">Empty Oxygen Cylinder</p>
+                      <p class="akashg">Oxygen Concentrator</p>
+                      <p class="akashg">PSA Oxygen Gas Plants</p>
+                      <p class="akashg">Oxygen Flower Meter</p>
+                      <p class="akashg">Oxygen Mask</p>
+                      <p class="akashg">Oxygen Generator</p>
+                      <p class="akashg-l">View all</p>
+                      <br>
+                      <span class="akashspan-2">Safety Essentials</span>
+                      <p class="akashg">Face Masks</p>
+                      <p class="akashg">PPE Kits</p>
+                      <p class="akashg">Face Shield</p>
+                      <p class="akashg">Disposable Gloves</p>
+                      <p class="akashg">Sneeze Guards</p>
+                      <p class="akashg">Car Partition</p>
+                      <p class="akashg">Surgical Caps</p>
+                      <p class="akashg">Hand Sanitizers</p>
+                      <p class="akashg-l">View all</p>
 
-export {about_homeservicecontactabout,contact_homeservicecontactabout,home_homeservicecontactabout,product_homeservicecontactabout,lastfootersectionjs};
+                   </div>
+                   <div id="covid-2">
+                      <span class="akashspan">Medicines</span>
+                      <p class="akashg">Tocilizumab</p>
+                      <p class="akashg">Fabiflu</p>
+                      <p class="akashg">Remdesivir</p>
+                      <p class="akashg">Dexamethasone Tablets</p>
+                      <p class="akashg">Amphotericin B Injection</p>
+                      <p class="akashg">Enoxaparin Injection</p>
+                      <p class="akashg">Baricitinib Tablets</p>
+                      <p class="akashg">Bevacizumab</p>
+                      <p class="akashg-l">View all</p>
+                      <br>
+                      <span class="akashspan-2">Medical Supplies and Equipments</span>
+                      <p class="akashg">Ventilator</p>
+                      <p class="akashg">Pulse Oximeter</p>
+                      <p class="akashg">Thermometer</p>
+                      <p class="akashg">Steam Vapourizer</p>
+                      <p class="akashg">Nebulizer</p>
+                      <p class="akashg">Corona Test Kits</p>
+                      <p class="akashg">City Scan Machine</p>
+                      <p class="akashg">Rapid Test Kits</p>
+                      <p class="akashg-l">View all</p>
+                   </div>
+                </div>
+             </ul>
+          </li>
+          <li><a class="akashactive" href="#"><i class="fa-solid fa-shop img"></i>Sell</a></li>
+
+          <li>
+             <!-- <a href="#">Web Design
+             <i class="fas fa-caret-down"></i>
+             </a> -->
+
+             <a href="#" class="akashactive help"><i class="fa-solid fa-circle-question img"></i>Help
+                <i class="fas fa-caret-down scroll"></i></a>
+             <ul>
+                <div id="help">
+                   <p>Find answers to your queries</p>
+
+                   <span class="space">For <b class="space-2">Buying</b>For <b>Selling</b></span>
+                   <!-- <p class="buysell">For </p><span class="akashspan">Buying</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For <span class="akashspan">Selling</span></p> -->
+                   <p class="akashg">Share your Feedback</p>
+                   <p class="akashg">Raise a Complaint</p>
+                   <p class="akashg">Email us on</p>
+                   <span class="akashspan">customercare@indiamart.com</span>
+                   <p class="akashg">Call us at <span class="akashspan">09-876-543-210</span></p>
+                   <p class="akashg">Chat with us</p>
+                   <p class="akashg">Seller Academy</p>
+                </div>
+             </ul>
+          </li>
+          <li><a href="#" class="akashactive"><i class="fa-solid fa-comment-dots img"></i>Message</a></li>
+          <li><a href="#" class="akashactive"><i class="fa-solid fa-circle-question img"></i>Sign in
+                <i class="fas fa-caret-down scroll"></i></a>
+
+             <ul>
+                <div id="last">
+                   <button id="button-3" onclick="popUp()">Sign in</button>
+
+                   <p class="akashg">New to IndiaMART?Join Now</p>
+                   <hr class="no">
+                   <p class="akashg">Home</p>
+                   <p class="akashg">Post Your Requirement</p>
+                   <p class="akashg">Verified Business BuyerNEW</p>
+                   <p class="akashg">My Orders</p>
+                   <p class="akashg">Recent Activity</p>
+                   <p class="akashg">Settings</p>
+                   <hr class="no">
+                   <p class="akashg">Pay with IndiaMART</p>
+                   <p class="akashg">Download App</p>
+                   <hr class="no">
+                   <p class="ak">Sign in as different user</p>
+
+                </div>
+             </ul>
+          </li>
+
+ </nav>
+ <section >
+    <div id="im-pop_s" style="display: none;">
+       <!-- Popup div starts here -->
+       <div id="popupContact_s">
+          <!-- contact us form -->
+          <div id="form_s"><a href="javascript:" onclick="closeMe();gATracking('step1_close');"><img
+                   src="//utils.imimg.com/header/gifs/3.png" id="close_s"></a>
+             <div class="one_s">
+                <div class="c3"></div>
+                <div id="form_bxx">
+                   <div class="step-1">
+                      <h2 class="f1_s" id="ghead" style="margin-bottom:10px;">Sign In</h2>
+                      <p style="padding-right:25px;text-align:right;margin-top:3px;" class="f12_s">&nbsp;<a
+                            style="font-weight:bold; color:#ffffff;" href="javascript:" onclick="signIn();"></a>
+                      </p><span id="g_sub_head"
+                         style="padding-left:10px;font-size: 15px;font-weight: 600;display:none;">You are
+                         just
+                         one step away from verified suppliers</span>
+                   </div>
+                   <div>
+                      <div class="frm-1">
+                         <div class="frm_right-1 f1_s" id="gsubhead">
+                            <form name="userregistration" id="reg-form"><a name="etop"></a><input type="hidden"
+                                  value="IMHOME" name="modid"><input type="hidden" value="Sign IN Form Desktop"
+                                  name="updatedusing" id="updatedusing"><i class="enbgg nvTg" id="gemal_icn"
+                                  style="display:none;"></i>
+                               <div class="labeljn_s c3_s" id="gemail"
+                                  style="margin-bottom: 20px;margin-left: 20px;font-size: 14px;font-weight: bold;display:none;">
+                               </div>
+                               <div class="labeljn_s c3_s" id="g_sub1_head"
+                                  style="margin-left: 5px;font-size: 14px;font-weight: bold;display:none;margin-top:0px;">
+                               </div>
+                               <div id="g_sub2_head" class="labeljn_s c3_s"
+                                  style="margin-bottom: 10px;font-size: 14px;display: none;width:390px;line-height:1.8;margin-top:0px;">
+                               </div>
+                               <div class="labeljn_s c3_s" id="formLabel">Mobile Number</div>
+                               <div class="f1 cont_drpdown" id="">
+                                  <dl class="dropdown cont_mob" id="country-dropdown" autocomplete="off">
+                                     <dt><a><span style="background-position:0px -1694px"></span>
+                                           <div class="as_arrow"></div>
+                                        </a><span class="value" style="display: inline-block;">+91</span>
+                                     </dt>
+                                     <dd>
+
+                                     </dd>
+                                  </dl>
+                               </div>
+                               <div id="frmGglCntryChusr"></div><input type="text" value="" maxlength="10"
+                                  placeholder="Enter Your Mobile Number" class="fw_fn-1 un2_s" id="mobile"
+                                  name="mobile"
+                                  style="background-color: rgb(255, 255, 255); outline: none; box-sizing: content-box; padding-left: 119px; width: 318px;"
+                                  autocomplete="off"><span id="mobile_err" class="em-1" style="display:none"></span>
+                               <div id="trm1" style="line-height: 21px; font-size: 14px; display: none;">
+                                  <label><input type="checkbox" id="myCheckbox" style="vertical-align:-2px;"
+                                        onchange="activateButton1(this)"> I
+                                     agree to the&nbsp;</label><a href="https://www.indiamart.com/terms-of-use.html"
+                                     target="_blank">terms
+                                  </a> and <a href="https://www.indiamart.com/privacy-policy.html" target="_blank" "="">privacy policy</a></div>
+                                                     <div class=" mt10_s">
+                                     <p><button tabindex="5"
+                                           style="padding: 8px 0px; width: 260px; background-color: rgb(0, 166, 153);"
+                                           onclick="validate()" type="button" class="continue_s" name="start"
+                                           id="logintoidentify">Submit</button></p>
+                                     <!-- create mobile_err error lable -->
+                                     <p><span id="mobile_err" class="em-1" <div id="lwg_wrpr" style="display: none;">
+
+                                           <div id="gSignInWrapper"
+                                              style="margin: 10px 0px 15px 0px;text-align:center;">
+                                              <div id="signinBtn" class="customGPlusSignIn"> <span class="Gicon">
+                                                 </span> <span class="buttonText">
+                                                 </span><input type="hidden" value="0" style="display:none;" id="LWG">
+                                              </div>
+                                           </div>
+                               </div><span id="loading_s"
+                                  style="display:none; text-align:left !important;padding-top:24px;font-size:12px;top:10px;"><img
+                                     style="text-align:left;" src="//utils.imimg.com/header/gifs/indicator.gif"
+                                     alt="loading" height="16" width="16"><b style="color:#000;">&nbsp;Signing
+                                     In...</b></span>
+                         </div>
+                         </form>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div> <!-- Popup div ends here -->
+    </div>
+
+    <!-- confirm mobile number pop_up -->
+    <div id="confirm_otp_pop" style="display:none;">
+       <div id='form_otp1' class='one_s1'><a href='javascript:' onclick='closeMe();'><img
+                src='//utils.imimg.com/header/gifs/3.png' id='close_s'></a>
+          <div class='step-1' id='bs_hdng1'>
+             <h2 style='text-align: center; padding-left: 0px;'>Login with One Time Password (OTP)</h2>
+          </div>
+          <div class='p181 c31 ds_in1' style='display:inline-block;width:100%;margin-left:0;padding: 10px 0px 18px;'
+             id='main_div'>
+             <p class='otp-mob1 c31 fs141 lh24' style='padding: 10px 0;width: 60%;margin: 0 auto;'>
+                <sapn><b>To Continue with Login</b><br> Click below to get One Time Password (OTP) on your mobile
+                   <b id="given_number">
+
+                   </b>
+                </sapn>
+             </p>
+             <div style='text-align: center;'> <a id='a1' onclick='sendOTP( );'
+                   style='text-decoration:none!important;/* background-color: #00a699; */'><input type='button'
+                      id='passwordbtn1' class='log18_s continue_lgnpassword' value='Send OTP'
+                      style='display: inline-block;padding: 10px 45px;margin: 5px 0px 0px 0px;font-size:16px;background: #00a699;color: white;border: none;'></a>
+             </div>
+             <div class='vfn-code1 fs141 c31'>
+                <div style='margin: 0 auto;text-align: center;'>
+                   <p class='c3 skip' style='display: block;'></p>
+                   <div class='or-sec'
+                      style='margin: 0 auto;margin-top: 20px;margin-bottom: 15px;display: inline-block;margin-right: 5px;width:170px;border: 0.5px solid #d9d9d9;'
+                      id='or'></div>
+                   <div class='box-or'
+                      style='display: inline-block;position: relative;top: -11px;margin-bottom: -20px;left: 0px;color:#000;background:none;'>
+                      OR</div>
+                   <div class='or-sec'
+                      style='margin: 0 auto;margin-top: 20px;margin-bottom: 15px;display: inline-block;margin-right: 5px;width:170px;border: 0.5px solid #d9d9d9;'
+                      id='or'></div><br><a id='a1' onclick='test()' href='javascript:void(0)'
+                      style='text-decoration:none!important;'><input type='button' id='passwordbtn1'
+                         class='log18_s continue_lgnpassword' value='Login with Password'
+                         style='display: inline-block;margin: 10px 7px 0px;padding: 10px;font-size:14px;'></a><br>
+                   <p class='c3 skip' style='display: block;'></p>
+                   <div class='or-sec'
+                      style='margin: 0 auto;margin-top: 20px;margin-bottom: 15px;display: inline-block;margin-right: 5px;width:170px;border: 0.5px solid #d9d9d9;'
+                      id='or'></div>
+                   <div class='box-or'
+                      style='display: inline-block;position: relative;top: -11px;margin-bottom: -20px;left: 0px;color:#000;background:none;'>
+                      OR</div>
+                   <div class='or-sec'
+                      style='margin: 0 auto;margin-top: 20px;margin-bottom: 15px;display: inline-block;margin-right: 5px;width:170px;border: 0.5px solid #d9d9d9;'
+                      id='or'></div><br><br><a onclick='callingC(); ' rel="nofollow" class="cpo"
+                      style='color:#606060;text-decoration: underline;font-size: 13px;cursor:pointer;'>Sign In as
+                      Different User</a>
+                   <p></p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!-- confirm otp pop ends here -->
+
+    <!-- last pop_up open here -->
+    <div class="last_pop" style="display: none;">
+       this is last
+    </div>
+    <div id='loadingmessage'
+       style='display:none;width: 100%;height: 100%;position:fixed;z-index: 1001;text-align: center;'> <img
+          src='//utils.imimg.com/header/imgs/loader1.gif'> </div>
+    </div>
+
+    </div>
+
+ </section>
+    `
+} 
+
+export {about_homeservicecontactabout,contact_homeservicecontactabout,home_homeservicecontactabout,product_homeservicecontactabout,lastfootersectionjs,main_blue_divbar};
