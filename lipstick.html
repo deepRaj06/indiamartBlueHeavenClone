@@ -18,6 +18,8 @@
     <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
         type="text/javascript"></script>
+        <script src="https://kit.fontawesome.com/4c42ee9e21.js" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -29,6 +31,9 @@
         <title>Product_page</title>
    <link rel="stylesheet" href="./contactabout.css">
     <link rel="stylesheet" href="lipstick.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="./pop_up.css">
+
     <style>
         .iti {
             display: none;
@@ -39,6 +44,12 @@
 </head>
 
 <body>
+    <div class="akash_navdiv_blue">
+   
+
+
+    </div>
+
     <!-- second navbar start  -->
     <div id="secondnavabrjs">
     </div>
@@ -180,7 +191,7 @@
 
                 <div class="sub">
                     <h2 class="h2">Baked Brick Lipstick </h2>
-                    <img class="img" src="https://4.imimg.com/data4/QY/OX/GLADMIN-3792183/1-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/QY/OX/GLADMIN-3792183/1-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -192,7 +203,7 @@
 
 
                     <h2 class="h2">Cerise Pink Lipstick </h2>
-                    <img class="img" src="https://4.imimg.com/data4/RR/NW/GLADMIN-3792183/1-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/RR/NW/GLADMIN-3792183/1-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -225,7 +236,7 @@
 
                 <div class="sub">
                     <h2 class="h2">Coral Red Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/QI/AY/GLADMIN-3792183/2-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/QI/AY/GLADMIN-3792183/2-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -237,7 +248,7 @@
 
 
                     <h2 class="h2">Desert Rose Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/ED/UH/GLADMIN-3792183/1-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/ED/UH/GLADMIN-3792183/1-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -271,7 +282,7 @@
 
                 <div class="sub">
                     <h2 class="h2">Eternal Red Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/AI/JQ/GLADMIN-3792183/2-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/AI/JQ/GLADMIN-3792183/2-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -283,7 +294,7 @@
 
 
                     <h2 class="h2">Muddy Pink Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/QF/YN/GLADMIN-3792183/3-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/QF/YN/GLADMIN-3792183/3-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -310,7 +321,7 @@
 
                 <div class="sub">
                     <h2 class="h2">Pretty Purple Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/KD/IX/GLADMIN-3792183/4-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/KD/IX/GLADMIN-3792183/4-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -322,7 +333,7 @@
 
 
                     <h2 class="h2">Radient Red Lipstick</h2>
-                    <img class="img" src="https://4.imimg.com/data4/VH/FC/GLADMIN-3792183/1-250x250.jpg" alt="">
+                    <img id="img" src="https://4.imimg.com/data4/VH/FC/GLADMIN-3792183/1-250x250.jpg" alt="">
                     <a class="ain">Get Latest Price</a>
 
                     <button class="askbutton">Ask for Details</button>
@@ -389,7 +400,9 @@
 
 </html>
 <script type="module">
-    import {product_homeservicecontactabout ,lastfootersectionjs } from "./component/allscript.js";
+    import {product_homeservicecontactabout ,lastfootersectionjs,main_blue_divbar } from "./component/allscript.js";
 document.querySelector('#secondnavabrjs').innerHTML = product_homeservicecontactabout();
 document.querySelector('#lastfootersection').innerHTML = lastfootersectionjs();
+document.querySelector('.akash_navdiv_blue').innerHTML = main_blue_divbar();
+
 </script>
