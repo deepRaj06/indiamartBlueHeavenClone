@@ -125,3 +125,61 @@ margin-bottom: 4px;
 .heading{
     margin-left:150px;
 }
+
+.yesbutton1{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton1:hover{
+    transform: scale(1.04);
+}
+
+.yesbutton2{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton2:hover{
+    transform: scale(1.04);
+}
+
+
+.yesbutton3{
+
+    background-color: teal;
+    color:white;
+    padding:15px;
+    
+    border-radius:5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+    width:35%;
+    transform:scale(1.06)
+    
+ }
+ .yesbutton3:hover{
+    transform: scale(1.04);
+}
