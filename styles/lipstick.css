@@ -2,6 +2,9 @@
 /* #lipstickpage{
     border : 1px solid red
 } */
+/* body{
+    overflow-x: hidden;
+} */
 
 .heading{
     margin-left:200px;

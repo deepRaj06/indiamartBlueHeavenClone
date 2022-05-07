@@ -1,3 +1,7 @@
+/* body{
+    overflow-x: hidden;
+} */
+
 #inside{
     display:flex;
     width: 90%;

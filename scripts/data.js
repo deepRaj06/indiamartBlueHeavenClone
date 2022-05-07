@@ -114,7 +114,7 @@ console.log(makeuparr)
 // })
 
 
-import { appendprod } from "./new.js"
+import { appendprod } from "./new.js";
 
 
 let makeup = () => {
@@ -443,7 +443,7 @@ lipcareprod()
 
 
 
-import {product_homeservicecontactabout ,lastfootersectionjs ,main_blue_divbar} from "./component/allscript.js";
+import {product_homeservicecontactabout ,lastfootersectionjs ,main_blue_divbar} from "../component/allscript.js";
 document.querySelector('#secondnavabrjs').innerHTML = product_homeservicecontactabout();
 document.querySelector('#lastfootersection').innerHTML = lastfootersectionjs();
 document.querySelector('.akash_navdiv_blue').innerHTML = main_blue_divbar();

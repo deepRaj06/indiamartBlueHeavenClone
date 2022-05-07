@@ -9,6 +9,10 @@
   overflow: hidden;
   user-select: none;
 } */
+/* body{
+  overflow-x: hidden;
+} */
+
 .hd_logo {
   font-weight: 400;
   line-height: 1;
@@ -167,9 +171,10 @@ z-index: 99999 !important;position: relative;opacity: 2000;background-color: #ff
 /* justify-content: space-between; */
 }
 
-#covid-1 p{
- /* margin-bottom: 0px; */
-}
+/* #covid-1 p{
+ margin-bottom: 0px;
+} */
+
 .akashg{
   /* margin-top: 10px; */
   font-size: 14px;

@@ -235,14 +235,53 @@ btnScrollToTop.addEventListener('click', () => {
         },
     });
 
+// Function for input 
 
+// document.querySelector('#button').addEventListener('click', searchForm);
+
+// let searchForm = () => {
+//     let query = document.querySelector('#search-input').value;
+//     console.log('hrllo');
+
+//     if(query != '')
+//     {
+//         if(query == 'makeup' || query == 'Makeup')
+//         {
+//             window.location.href = 'data.html';
+//         }
+//         if(query == 'foundation' || query == 'Foundation')
+//         {
+//             window.location.href = 'makeup.html';
+//         }
+//         if(query == 'lipstick' || query == 'Lipstick')
+//         {
+//             window.location.href = 'lipstick.html';
+//         }
+//         if(query == 'lipproduct' || query == 'Lipproduct')
+//         {
+//             window.location.href = 'lipproduct.html';
+//         }
+//         if(query == 'scrub' || query == 'Scrub')
+//         {
+//             window.location.href = 'scrubs.html';
+//         }
+//         if(query == 'bleach' || query == 'Bleach')
+//         {
+//             window.location.href = 'bleach.html';
+//         }
+//     }
+// }
+
+// searchForm();
+
+// document.querySelector('#button').addEventListener('click', searchForm);
 
     
     // import section
 
 
    
-import {home_homeservicecontactabout ,lastfootersectionjs,main_blue_divbar } from "./component/allscript.js";
+import {home_homeservicecontactabout ,lastfootersectionjs,main_blue_divbar } from "../component/allscript.js";
 document.querySelector('#secondnavabrjs').innerHTML = home_homeservicecontactabout();
 document.querySelector('#lastfootersection').innerHTML = lastfootersectionjs();
 document.querySelector('.akash_navdiv_blue').innerHTML = main_blue_divbar();
