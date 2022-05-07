@@ -178,7 +178,7 @@
 
 
 
-#button {
+#button_bh {
     margin-top:30px;
     border: 1px solid #2e3192;
     border-radius: 3px;
@@ -195,7 +195,7 @@
     transition: all .5s ease-out;
   }
   
-  #button:hover {
+  #button_bh:hover {
     background-position: left bottom;
     color: white;
  
