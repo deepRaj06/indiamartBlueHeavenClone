@@ -36,7 +36,12 @@
   height: 70px;
   background: #13038c;
   box-shadow: 0 3px 15px rgba(0,0,0,.4);
- 
+  width: 100%;
+  
+}
+body{
+  overflow-x: hidden;
+  height: auto;
 }
 .akash_navas ul{
   float: right;
