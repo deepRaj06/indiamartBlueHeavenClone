@@ -96,7 +96,7 @@ As part of our construct week for group project in Unit 3 at Masai School, we we
 - About Us page made by **Vishal**.
 - Contact Us page made by **Vishal**.
 - Quote form & Box Modal made by **Chandraprakash**.
-- Blog written by **Riya**, contributions by **Akash**, **Deepak**, **Vishal**, **Bhavesh**, **Chandraprakash**.
+- Blog written by **Riya**, contributions by **Akash**, **Deepak**, **Vishal**, **Bhavesh** & **Chandraprakash**.
 ## Lessons Learned
 
 - Use of GitHub to collaborate.
